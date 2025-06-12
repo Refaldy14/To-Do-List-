@@ -25,14 +25,11 @@ cd To-Do-List-
 
 Install dependency Laravel:
 composer install
-
 Salin file .env dan generate key:
 cp .env.example .env
 php artisan key:generate
-
 Jalankan Laravel:
 php artisan serve
-
 Buka di browser:
 http://127.0.0.1:8000/tasks
 
