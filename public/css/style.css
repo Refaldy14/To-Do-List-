@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #f5f7fa;
+    padding: 40px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    background: rgb(126, 181, 218);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+ul.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+form.delete-form {
+    margin: 0;
+}
+
+form.delete-form button {
+    background: #e53935;
+}
+
+form.delete-form button:hover {
+    background: #d32f2f;
+}
